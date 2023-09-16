@@ -29,7 +29,7 @@ public class Conexion extends DatosDB{
             rs = stmt.executeQuery(Sql);
             System.out.println("hola");
             while (rs.next()) {
-                System.out.println(rs.getString("nombre"));
+                System.out.println(rs.getString(""));
                 
             }
             
